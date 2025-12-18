@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GarageRaceCalc — Beranda</title>
+  <link rel="stylesheet" href="style1.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo"><span class="logo-mark"></span>A2<span>Speed</span></div>
+    <nav>
+      <a href="index1.html">Beranda</a>
+      <a href="kalkulator.html">Kalkulator</a>
+      <a href="piston.html">Piston</a>
+      <a href="video1.html">Video</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero card">
+      <div class="hero-inner">
+        <h1>A2SpeedCalc</h1>
+        <p class="lead">Hitung CC motor, tentukan overbore / overstroke / square, dan simulasikan bore-up / stroke-up.</p>
+        <div class="hero-cta">
+          <a class="btn" href="kalkulator.html">Mulai Kalkulator</a>
+          <a class="btn ghost" href="piston.html">Lihat Piston</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+  <h2>Tentang Website A2SpeedCalc</h2>
+  <p>
+    A2SpeedCalc adalah platform edukasi dan portofolio interaktif yang dirancang untuk memberikan pemahaman mendalam mengenai perhitungan kapasitas mesin sepeda motor, karakteristik desain bore-stroke, serta simulasi modifikasi mesin. Website ini dibuat sebagai contoh aplikasi teknik otomotif yang terhubung dengan front-end web development sehingga bukan hanya informatif, tetapi juga menjadi demonstrasi kemampuan pemrograman, penyajian data, dan visualisasi konsep mekanika mesin.
+  </p>
+  <p>
+    Dalam dunia otomotif, terutama motor performa atau motor yang dimodifikasi untuk harian dan balap, sangat penting memahami hubungan antara <strong>bore</strong>, <strong>stroke</strong>, dan <strong>cc mesin</strong>. Kombinasi kedua parameter tersebut menentukan karakter tenaga, torsi, gaya berkendara, hingga potensi modifikasi. Website ini menyediakan alat untuk menghitung cc mesin hanya dengan memasukkan data bore dan stroke, sekaligus memberi tahu apakah mesin tersebut termasuk <strong>overbore</strong>, <strong>overstroke</strong>, atau <strong>square</strong>.
+  </p>
+  <p>
+    Selain itu, GarageRaceCalc juga menyediakan <strong>simulasi bore-up / stroke-up</strong> yang memungkinkan pengguna menghitung perubahan kapasitas mesin ketika bore atau stroke ditingkatkan. Dengan fitur ini, pengguna dapat memvisualisasikan efek modifikasi mesin tanpa harus melakukannya secara nyata—cocok sebagai bahan perencanaan, edukasi, maupun portofolio teknis.
+  </p>
+  <p>
+    Website ini juga menghadirkan <strong>galeri rekomendasi piston</strong> yang menampilkan contoh piston forged dan piston kit yang umum dipakai dalam dunia modifikasi. Sementara itu, halaman <strong>Video Edukasi</strong> memberikan ruang bagi pemilik website untuk menampilkan video penjelasan teknis atau hasil dokumentasi proyek secara lebih visual.
+  </p>
+  <p>
+    GarageRaceCalc bertujuan menjadi alat bantu edukasi, referensi modifikasi ringan, sekaligus contoh portofolio front-end yang modern dan responsif. Struktur halaman dibuat rapi dan mudah dipahami, sehingga pengguna bisa berpindah antara fitur perhitungan, simulasi, galeri, dan video dengan nyaman.
+  </p>
+  <p>
+    Website ini siap dikembangkan lebih jauh dengan fitur seperti kalkulator rasio kompresi, grafik karakter mesin, database spek motor standar, dan fitur ekspor PDF untuk laporan atau tugas kuliah. Dengan menggabungkan teori, visual, dan interaktivitas, GarageRaceCalc menjadi sarana belajar yang menarik sekaligus representasi kemampuan teknis pembuatnya.
+  </p>
+</section>
+
+
+    <section class="card">
+      <h2>Fitur Utama</h2>
+      <ul>
+        <li>Kalkulator CC dari bore & stroke</li>
+        <li>Menentukan Overbore / Overstroke / Square</li>
+        <li>Simulasi Bore-Up / Stroke-Up</li>
+        <li>Galeri piston (foto)</li>
+        <li>Halaman video</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> A2SpeedCalc</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>const y=document.getElementById('year'); if(y) y.textContent=new Date().getFullYear();</script>
+</body>
+</html>
